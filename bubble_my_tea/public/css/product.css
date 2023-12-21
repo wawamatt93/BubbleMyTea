@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(banner-bg.png);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a08bea;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2em;
+}
+
+.flavor {
+    width: 30%;
+    margin: 1em;
+    border: 1px solid  #a08bea;
+    padding: 1em;
+    text-align: center;
+}
+
+.flavor img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.flavor-info {
+    margin-top: 1em;
+}
+
+.add-to-cart-btn {
+    background-color: #a08bea;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #a08bea;
+}
+.price {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5em;
+}

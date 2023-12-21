@@ -1,0 +1,39 @@
+body {
+    background-image: url(banner-bg.png);
+}
+.myheader{
+    font-size: 150px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+   
+   }
+
+.btn-primary {
+    background-color: #a08bea;
+    border-color: #a08bea;
+    color: #fff; 
+}
+
+.forgot-link,
+.create-account-link {
+    color: #a08bea;
+    
+}
+.container {
+    margin-top: 50px;
+}
+img{
+    width : 10vh;
+    height : 10vh;
+    max-width : 200px;
+    max-height : 150px;
+  margin: auto;
+  padding: auto;
+   
+}
+.navbar{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}

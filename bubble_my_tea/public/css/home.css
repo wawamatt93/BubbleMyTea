@@ -1,0 +1,199 @@
+
+  body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .container {
+      min-width: 992px;
+      max-width: 1440px;
+  }
+  
+  h2, 
+  h3 {
+      font-family: 'Archivo', sans-serif;
+      font-style: normal;
+  }
+  
+  h2 {
+      text-align: center;
+  }
+  
+  
+  /*HEADER*/
+  .header {
+    background-color: #EFEFD0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px 50px;
+    font-size: 24px;
+  }
+  .logo{
+    width: 150px;
+  }
+  .navbar{
+display: flex;
+  }
+  .accueil {
+    text-decoration: none;
+    color: #ff6060;
+    cursor: pointer;
+  }
+  
+  .accueil:hover {
+    text-decoration: underline;
+  }
+  .aPropos {
+    text-decoration: none;
+    color: #ff6060;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  .aPropos:hover {
+    text-decoration: underline;
+  }
+  /*@media screen and (max-width: 768px) {
+    .logoKasa {
+      width: 115px;
+    }
+    .header {
+      padding: 20px 20px 30px;
+      font-size: 12px;
+    }
+    .navbar {
+      text-transform: uppercase;
+    }
+    .aPropos {
+      text-decoration: none;
+      color: #ff6060;
+      margin-left: 15px;
+      cursor: pointer;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    .header {
+      font-size: 10px;
+    }
+  }
+  */
+  /*CONTENT*/
+
+  .backgroundSection{
+        background-image: url('../images//section.jpg');
+       opacity: 0.7;
+       height: 360px;
+  }
+  
+  h2
+  {
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 38px;
+      color: var(--main-color);
+      padding-bottom: 40px;
+      margin-top: 0;
+  }
+  
+  h3 {
+      font-weight: 800;
+      font-size: 25px;
+      line-height: 27px;
+      color: black;
+      margin-bottom: 0;
+  }
+  
+  article {
+      width: 15%;
+      margin: 0px 20px;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  p {
+      font-family: 'Archivo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 17px;
+      color: var(--drak-grey-color);
+  }
+  
+  
+  /***************/
+  .directionRow {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  
+  .directionColumn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .sectionLinearGradientBackground {
+      background: linear-gradient(to right, var(--main-color), var(--second-color));
+  }
+  
+  .whiteContentSection h2,
+  .whiteContentSection h3,
+  .whiteContentSection p {
+      color:  white;
+  }
+  
+  .textCenter {
+      text-align: center;
+  }
+  
+  /***************/
+  .sectionLightGreyBackground {
+      background-color: var(--light-grey-color);
+  }
+  
+  .button {
+      margin: 20px 0px;
+      padding: 15px 35px;
+      background-color: white;
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-family: 'Archivo';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 17px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      text-decoration: none;
+  }
+  
+  .buttonDrakGreyColor {
+      color: var(--drak-grey-color);
+      border-color: var(--drak-grey-color);
+  }
+  
+  .buttonMainColor {
+      color: var(--main-color);
+      border-color: var(--main-color);
+  }
+  
+  .buttonSecondColor {
+      color: var(--second-color);
+      border-color: var(--second-color);
+  }
+  
+  .buttonRounded {
+      border-radius: 39px;
+  }
+  
+  .buttonHighlight:hover {
+      font-weight: 800;
+      border-width: 3px;
+  }

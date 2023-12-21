@@ -1,0 +1,15 @@
+body {
+    background-image: url(banner-bg.png);
+}
+
+.btn-primary {
+    background-color: #a08bea;
+    border-color: #a08bea;
+    color: #fff; 
+}
+
+.forgot-link,
+.create-account-link {
+    color: #a08bea;
+    
+}
